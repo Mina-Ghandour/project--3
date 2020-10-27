@@ -1,0 +1,467 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+/*Start Navbar*/
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background-color: #360836;
+    
+}
+.navbar ul
+{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul li
+{
+    display: inline-block;
+}
+.navbar ul li a
+{
+    color:#ff0048;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: large;
+}
+.navbar ul li a:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+.navbar ul li a.active
+{
+    color:goldenrod;
+}
+.navbar ul li a.active:hover
+{
+    color: gold;
+}
+
+/*End Navbar*/
+/*Start web flow*/
+.webf
+{
+    width: 100%;
+    height: 600px;
+    background: url(../Images/cover.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    
+}
+.webf .folk
+{
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.webf .folk h2
+{
+    margin: 0; 
+    padding: 0;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+      
+}
+.webf .folk p
+{
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 10px;
+   
+}
+.webf .dream p
+{
+    color: #fff;
+    font-size: 25px;
+}
+.webf .bollet
+{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.webf .bollet span
+{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.webf .work
+{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    left: 40%;
+    background-color: #ff0048;
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.webf .work::after
+{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -70px;
+}
+/*End web flow*/
+
+/*Start Images*/
+.image
+{
+    width: 100%;
+    height: 760;
+}
+.image .img
+{
+    width: 25%;
+    height: 252px;
+    background: url(../Images/image_1.jpg);
+    float: left;
+}
+.image .img .over 
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0, 0.5);
+    opacity: 1;
+}
+.image .img:hover .over
+{
+    opacity: 0;
+}
+.image .i-1{ background: url(../Images/image_2.jpg);}
+.image .i-2{ background: url(../Images/image_3.jpg);}
+.image .i-3{ background: url(../Images/image_4.jpg);}
+.image .i-4{ background: url(../Images/image_5.jpg);}
+.image .i-5{ background: url(../Images/image_6.jpg);}
+.image .i-6{ background: url(../Images/image_7.jpg);}
+.image .i-7{ background: url(../Images/image_8.jpg);}
+.image .i-8{ background: url(../Images/image_9.jpg);}
+.image .i-9{ background: url(../Images/image_10.jpg);}
+.image .i-10{ background: url(../Images/image_1.jpg);}
+.image .i-11{ background: url(../Images/image_12.jpg);}
+
+.clear{clear: both;}
+/*End Images*/
+
+/*Start The Folk*/
+.meet
+{
+    width: 100%;
+    height: auto ;
+    position: relative;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+}
+.meet .head
+{
+    position: absolute;
+    top: 0;
+    background-color: #ff0048;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    line-height: 50px;
+}
+.meet .head::after
+{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -70px;
+}
+
+.meet h2
+{
+    margin: 0;
+    padding: 8%;
+    text-align: center;
+    color: #ff0048;
+    font-size: 30px;
+}
+.meet .meet_image
+{
+   float: left; 
+   margin-left: 185px ;
+   margin-top: 20px;
+}
+.meet .meet_image h3
+{
+    color: #ff0048;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-align: left;
+    
+
+}
+.meet button
+{
+    width: 160px;
+    margin-left: 45%;
+    border: 0;
+    background-color: black;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.meet button a
+{   text-decoration: none;
+    color: #fff;
+}
+.meet button a:hover
+{
+    color: gold;
+    font-size: 16px;
+}
+/*End The Folk*/
+
+/*Start  End Home*/
+.end
+{
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+    background: url(../Images/Cover_2.jpg);
+    text-align: center;
+    color: #fff;
+
+}
+.end .content
+{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 8%;
+    font-size: 20px;
+
+}
+.end .content h2
+{
+    margin: 0;
+    padding: 0;
+}
+.end button
+{
+   background-color: #fff;
+   color: #000;
+   border: 0;
+   width: 160px;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 15px;
+   
+}
+.end button a
+{   text-decoration: none;
+    color: black;
+}
+.end button a:hover
+{
+    color: #ff0048;
+    font-size: 16px;
+}
+.end .bol
+{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.end .bol span
+{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 15px;
+}
+.end .bol span:hover
+{
+    background-color: #ff0048;
+}
+/*End  End Home*/
+
+/*Start Footer*/
+.footer
+{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    background-color:#ddd;
+    color:black;
+    margin-top: 0;
+    padding: 10px;
+}
+.footer .m
+{
+    margin-top: -35px;
+    color: goldenrod;
+}
+
+/*End  Footer*/
+/**************** Contact .HTML ***************/
+/* Start  Contact */
+.contact ,.mina
+{
+    width: 100%;
+    height: 800px;
+    background: url(../Images/coverPage2.PNG);
+    background-size:cover ;
+    text-align: center;
+    padding-top: 10%;
+}
+.contact h2
+{
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+    
+
+}
+.contact p
+{
+    font-size: 25px;
+
+}
+.contact .form h2
+{
+    margin-bottom: 15px;
+}
+.contact .form
+{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+.contact .form h2
+{
+    color: #ff0048;
+}
+.contact .form input,textarea 
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 40px;
+    border: 0;
+    background-color: #ff0048;
+    color: #fff;
+    padding-left:10px ;
+}
+textarea
+{
+    height: 200px;
+}
+.contact .form button
+{   width: 100px;
+    height: 35px;
+    float: right;
+    border: 0;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.contact .form button:hover
+{
+    background-color: black;
+    color: gold;
+}
+
+
+/* End    Contact*/
+/* Start Information*/
+.info 
+{
+    width: 100%;
+    height: 350px;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 5%;
+}
+.info h2
+{
+    margin: 0;
+    color: #ff0048;
+    font-size: 35px;
+}
+.info p
+{
+    font-size: 18px;
+}
+/* End  Information*/
+/******************Booooooook OOOOOn ***************************/
+/* Start Book ON*/
+.cover
+{
+    width: 674px;
+    height: 252px;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+   
+}
+.cover .left
+{
+    width: 50%;
+    float: left;
+    
+}
+.cover .right 
+{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+/*
+    width: 100px;
+    height: 35px;
+    float: right;
+    border: 0;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+*/
+.cover .right button
+{
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.cover .right button:hover
+{
+    color: goldenrod;
+    font-size: 15px;
+}
+
+/* End   Book ON*/
